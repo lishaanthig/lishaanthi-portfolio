@@ -47,7 +47,7 @@ An online dress purchasing website that displays fashion collections with an att
 
 ## 🚀 Live Demo
 
-🔗 
+🔗 https://lishaanthig.github.io/lishaanthi-portfolio/
 
 ---
 

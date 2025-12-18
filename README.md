@@ -62,4 +62,4 @@ An online dress purchasing website that displays fashion collections with an att
 ## 🙏 Thank You
 
 Thank you for visiting my portfolio repository.  
-Feel free to explore the project and connect with me!
+

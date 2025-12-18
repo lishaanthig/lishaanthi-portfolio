@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body {
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+/* Navbar */
+nav {
+    background: #1e293b;
+    padding: 15px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.logo {
+    color: #38bdf8;
+}
+
+/* Sections */
+section {
+    padding: 70px 60px;
+    text-align: center;
+}
+
+.home {
+    height: 85vh;
+    background: linear-gradient(to right, #38bdf8, #0ea5e9);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.home span {
+    color: #1e293b;
+}
+
+button {
+    margin-top: 25px;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 6px;
+    background: #1e293b;
+    color: white;
+    cursor: pointer;
+}
+
+/* Skills */
+.skills-container span {
+    display: inline-block;
+    background: #e5e7eb;
+    padding: 10px 18px;
+    margin: 10px;
+    border-radius: 20px;
+    font-weight: 500;
+}
+
+/* Projects */
+.project-card {
+    background: white;
+    max-width: 700px;
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+.project-card h3 {
+    color: #0ea5e9;
+    margin-bottom: 10px;
+}
+
+.tech {
+    margin-top: 12px;
+}
+
+/* Contact links */
+#contact a {
+    color: #0ea5e9;
+    text-decoration: none;
+}
+
+/* Footer */
+footer {
+    background: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+/* Fade Animation */
+.fade {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s ease;
+}
+
+.fade.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Project hover animation */
+.project-card {
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+/* Skill hover animation */
+.skills-container span {
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.skills-container span:hover {
+    transform: scale(1.1);
+    background: #38bdf8;
+    color: white;
+}
+
+/* Button animation */
+button {
+    transition: transform 0.3s ease;
+    background :0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+    background: #020617;
+}
+
+/* Dark mode hover fix */
+body.dark .skills-container span:hover {
+    background: #0ea5e9;
+}
+/* Dark Mode */
+body.dark {
+    background-color: #020617;
+    color: #e5e7eb;
+}
+
+body.dark nav {
+    background: #020617;
+}
+
+body.dark section {
+    background-color: #020617;
+}
+
+body.dark .project-card {
+    background: #0f172a;
+    color: #e5e7eb;
+}
+
+body.dark .skills-container span {
+    background: #1e293b;
+    color: #e5e7eb;
+}
+
+body.dark footer {
+    background: #020617;
+}
+
+/* Toggle button */
+#theme-toggle {
+    background: none;
+    border: none;
+    font-size: 22px;
+    cursor: pointer;
+    color: white;
+}
+

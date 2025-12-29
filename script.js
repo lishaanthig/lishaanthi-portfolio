@@ -16,4 +16,3 @@ toggleBtn.addEventListener("click", () => {
         toggleBtn.textContent = "🌙";
     }
 });
-

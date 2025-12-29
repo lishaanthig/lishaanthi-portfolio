@@ -110,57 +110,9 @@ footer {
     text-align: center;
     padding: 15px;
 }
-/* Fade Animation */
-.fade {
-    opacity: 0;
-    transform: translateY(30px);
-    transition: all 0.8s ease;
-}
-
-.fade.show {
-    opacity: 1;
-    transform: translateY(0);
-}
-
-/* Project hover animation */
-.project-card {
-    transition: transform 0.4s ease, box-shadow 0.4s ease;
-}
-
-.project-card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
-}
-
-/* Skill hover animation */
-.skills-container span {
-    transition: transform 0.3s ease, background 0.3s ease;
-}
-
-.skills-container span:hover {
-    transform: scale(1.1);
-    background: #38bdf8;
-    color: white;
-}
-
-/* Button animation */
-button {
-    transition: transform 0.3s ease;
-    background :0.3s ease;
-}
-
-button:hover {
-    transform: scale(1.05);
-    background: #020617;
-}
-
-/* Dark mode hover fix */
-body.dark .skills-container span:hover {
-    background: #0ea5e9;
-}
 /* Dark Mode */
 body.dark {
-    background-color: #020617;
+    background-color: #0f172a;
     color: #e5e7eb;
 }
 
@@ -169,11 +121,11 @@ body.dark nav {
 }
 
 body.dark section {
-    background-color: #020617;
+    background-color: #0f172a;
 }
 
 body.dark .project-card {
-    background: #0f172a;
+    background: #020617;
     color: #e5e7eb;
 }
 
@@ -186,12 +138,13 @@ body.dark footer {
     background: #020617;
 }
 
-/* Toggle button */
+
 #theme-toggle {
     background: none;
     border: none;
-    font-size: 22px;
+    font-size: 20px;
     cursor: pointer;
     color: white;
 }
+
 
